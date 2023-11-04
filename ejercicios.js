@@ -65,3 +65,19 @@ do{
 
 }while(i<=5);
 
+let nota='';
+switch(true){
+case (calificacion>0 && calificacion<=5):
+	nota='Insuficiente';
+	break;
+case (calificacion>5 && calificacion<=8):
+	nota='Suficiente';
+	break;
+case (calificacion>8 && calificacion<=10):
+	nota='Sobresaliente';
+	break;
+default:
+	nota='Calificacion no valida';
+
+}
+console.log(nota);
